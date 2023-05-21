@@ -12,9 +12,7 @@ import com.bumptech.glide.Glide
 import com.satyamthakur.mvvmnews.R
 import com.satyamthakur.mvvmnews.models.Article
 
-class NewsAdapter: RecyclerView.Adapter<NewsAdapter.ArticleViewHolder> {
-
-
+class NewsAdapter: RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
 
     inner class ArticleViewHolder(itemView: View): RecyclerView.ViewHolder(itemView)
 
