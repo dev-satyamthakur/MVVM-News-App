@@ -1,4 +1,4 @@
-package com.satyamthakur.mvvmnews
+package com.satyamthakur.mvvmnews.models
 
 data class NewsResponse(
     val articles: List<Article>,

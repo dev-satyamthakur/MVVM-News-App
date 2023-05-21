@@ -1,6 +1,6 @@
 package com.satyamthakur.mvvmnews.api
 
-import com.satyamthakur.mvvmnews.NewsResponse
+import com.satyamthakur.mvvmnews.models.NewsResponse
 import com.satyamthakur.mvvmnews.utils.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET
