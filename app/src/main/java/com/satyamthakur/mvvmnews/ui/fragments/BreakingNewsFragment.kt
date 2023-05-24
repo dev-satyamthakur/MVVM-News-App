@@ -16,15 +16,15 @@ class BreakingNewsFragment: Fragment(R.layout.fragment_breaking_news) {
 
     lateinit var viewModel: NewsViewModel
     lateinit var newsAdapter: NewsAdapter
-    lateinit var rvBreakingNews: RecyclerView
-    lateinit var paginationProgressBar: android.widget.ProgressBar
+    private lateinit var rvBreakingNews: RecyclerView
+    private lateinit var paginationProgressBar: android.widget.ProgressBar
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel = (activity as NewsActivity).viewModel
 
         rvBreakingNews = view.findViewById(R.id.rvBreakingNews)
-        paginationProgressBar = view.findViewById(R.id.paginationProgressBar)
+        paginationProgressBar = view.findViewById(R.id.paginationProgressBarBreakingNews)
 
         setupRecyclerView()
 
